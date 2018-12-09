@@ -1,3 +1,4 @@
-farbic = [[0]*10]*10
+import string
 
-print(farbic)
+for char in string.ascii_lowercase:
+  print(char)

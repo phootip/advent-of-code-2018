@@ -1,3 +1,7 @@
 {
-  "python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "C:\\Users\\top10\\.virtualenvs\\AdventOfCode_2018-nHXXpeQ5\\Scripts",
+  "code-runner.executorMap": {
+    "python": "C:\\Users\\top10\\.virtualenvs\\AdventOfCode_2018-nHXXpeQ5\\Scripts\\python.exe -u",
+  }
 }
