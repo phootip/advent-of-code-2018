@@ -3,7 +3,7 @@
 
 # never mind, puzzle input differ by user.
 
-f = open('./5.txt')
+f = open('./5-1.txt')
 data = f.read()
 
 def reaction(data):
