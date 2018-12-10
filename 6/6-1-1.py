@@ -6,7 +6,7 @@ sys.setrecursionlimit(9000)
 pp = pprint.PrettyPrinter(depth=3)
 
 # f = open('6-1.txt')
-f = open('6-test.txt')
+f = open('./6/6-test.txt')
 data = []
 
 for line in f:
@@ -73,7 +73,7 @@ for point in range(1,len(data)):
   calClosest(point,x-1,y)
   calClosest(point,x,y+1)
   calClosest(point,x,y-1)
-pp.pprint(plane)
+# pp.pprint(plane)
 
 edge = set()
 for i in plane[0]:

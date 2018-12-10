@@ -1,4 +1,4 @@
-import string
+from test2 import Hello
 
-for char in string.ascii_lowercase:
-  print(char)
+b = Hello()
+print(b.a)

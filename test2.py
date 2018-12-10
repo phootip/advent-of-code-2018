@@ -1,0 +1,2 @@
+class Hello:
+  a = 'world'
