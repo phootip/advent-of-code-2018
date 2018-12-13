@@ -1,4 +1,6 @@
-from test2 import Hello
+a = [1,2,3,4,5]
 
-b = Hello()
-print(b.a)
+for i in a:
+  print(i)
+  if(i == 2):
+    a.remove(i)
